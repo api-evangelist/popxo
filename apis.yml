@@ -1,4 +1,16 @@
 aid: popxo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popxo.png
 name: PopXO
 description: PopXO is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,15 @@ maintainers:
 common:
 - type: Website
   url: https://popxo.com
+x-domain-status:
+  domain: popxo.com
+  resolves: false
+  checked: '2026-07-20'
+  method: probed
+  note: No DNS A/NS records and no HTTP response; domain appears defunct (PopXO's
+    parent Good Glamm Group collapsed). No API/developer surface to enrich.
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
